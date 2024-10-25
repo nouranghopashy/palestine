@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://thumbs.dreamstime.com/b/aerial-view-sunrise-behind-dome-rock-old-city-jerusalem-israel-palestine-image-striking-portrayal-intersection-296434412.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* span {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+span a {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+span a:hover {
+  background-color: #0056b3;
+} */
+ /* span{
+  background-color: #000;
+  color: #fff;
+  border: 2px solid black ;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-align: center;
+} 
+span a {
+  color: #fff;
+} */
+
+aside .submit {
+  display: block;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100px;
+  margin: 0 auto; /* This centers the button horizontally */
+}
+
+aside .submit:hover {
+  background-color: #333; /* Slightly darker on hover */
+}
+
+span a.submit {
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 10px 20px;
+  width: fit-content;
+  margin: 0 auto; /* This centers the submit button */
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+span a.submit:hover {
+  background-color: #333; /* Slightly darker on hover */
+}
+
+.name {
+  text-align: center;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 190;
+  font-size: xx-large;
+  font-style: italic;
+}
+
+.box-1{
+  width: 650px;
+  height: 300px;
+  padding-left: 150;
+  display: flex;
+
+}
+
+
+p {
+  font-size: x-large;
+  font-weight: 150;
+  display: inline-block;
+  margin-left: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+ padding-left: 15px;
+ padding-top: 15px;
+ padding-right: 15px;
+  
+}
+aside {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 400px;
+  height: 430px;
+  padding: 20px;
+  position: fixed;
+  top: 25%;
+  right: 250px;
+  border-radius: 8px;
+}
+
+aside .info-item {
+  display: flex;
+  flex-direction: column;
+}
+
+aside .form-group {
+  margin-bottom: 20px;
+}
+
+aside label {
+  font-weight: bold;
+}
+
+aside input,
+aside textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* aside a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+} */
+
+aside a:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #4CAF50;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.twitter-icon:hover {
+  color: #1DA1F2; 
+}
+nav{
+  display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
